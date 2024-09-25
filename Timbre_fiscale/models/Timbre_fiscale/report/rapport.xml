@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+         <report
+         id="rapport_pdf"
+         model="account.move"
+         string="declaration mensuelle"
+         report_type="qweb-pdf"
+         file="Timbre_fiscale.report_declaration_mensuelle"
+         name="Timbre_fiscale.report_declaration_mensuelle"
+
+
+
+             />
+    </data>
+</odoo>

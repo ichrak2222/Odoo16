@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="declaration_action" model="ir.actions.act_window">
+            <field name="name">declaration mensuelle</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">declaration</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <menuitem id="declaration_mensuelle_root" name="declaration " sequence="10">
+            <menuitem id="declaration_root" name="declaration mensuelle"  action="declaration_action" sequence="10"/>
+        </menuitem>
+
+
+    </data>
+</odoo>

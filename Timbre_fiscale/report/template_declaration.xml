@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+    <template id="report_declaration_mensuelle">
+
+        <t t-call="web.basic_layout">
+            <div class="page">
+                <pageTemplate id="page" class="header">
+    <frame id="first"  />
+    <img src="/Timbre_fiscale/static/src/img/image.png" class="float-left" alt="images"  width="80" height="80" />
+                    <img src="/Timbre_fiscale/static/src/img/image.png" class="float-right" alt="images"  width="80" height="80" />
+
+</pageTemplate>
+  <center>التصريح الشهري باألداءات</center>
+                <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+                     <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+                     <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+                     <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+                     <p>hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
+
+            </div>
+        </t>
+    </template>
+    </data>
+</odoo>

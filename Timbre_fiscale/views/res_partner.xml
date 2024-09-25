@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+         <record id="view_partner_form_inherit" model="ir.ui.view">
+            <field name="name">view_partner_form_inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="account.view_partner_property_form"/>
+            <field name="arch" type="xml">
+            <xpath expr="//group/button[@name='62']" position="before">
+                <field name="timbre_fiscale" />
+            <!-- Add your fields or attributes here -->
+            </xpath>
+
+                </field>
+        </record>
+
+    </data>
+</odoo>

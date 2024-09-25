@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="invoice_report_inherit" inherit_id="account.report_invoice_document">
+            <xpath expr="//div[@class='page']" position="before">
+
+
+                <div class="my-container" style="display:flex; justify-content: space-between;">
+                    <div class="customer-info" style="right">
+                        <ul>
+
+                            <li>
+                                <span t-field="o.partner_id"/>
+                            </li>
+                            <li>
+                                <span t-field="o.partner_id.city"/>
+                            </li>
+                            <li>
+                                <span t-field="o.partner_id.country_id"/>
+                            </li>
+                            <li><span/>Code Postal et Ville
+                            </li>
+                            <li>
+                                <span t-field="o.partner_id.phone"/>
+                            </li>
+                            <li>
+                                <span t-field="o.partner_id.email"/>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="company-info" style="left">
+                        <ul>
+                            <li>
+                                <span t-field="o.company_id.name"/>
+                            </li>
+                            <li>
+                                <span t-field="o.company_id.street"/>
+                            </li>
+                            <li>
+                                <span t-field="o.company_id.street2"/>
+                            </li>
+                            <li>
+                                <span t-field="o.company_id.zip"/>
+                                <span t-field="o.company_id.city"/>
+                            </li>
+                            <li>
+                                <span t-field="o.company_id.country_id"/>
+                            </li>
+                            <li>
+                                <span t-field="o.company_id.email"/>
+                            </li>
+                            <li>
+                                <span t-field="o.company_id.phone"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </xpath>
+
+
+        </template>
+
+    </data>
+</odoo>
